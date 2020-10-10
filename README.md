@@ -28,5 +28,5 @@ Question 2:
 
 java.util.ConcurrentModificationException occurs with the java collection class. the collection changes while some thread is traversing over it using the iterator iterator.next() which throws the ConcurrentModificationException.
 
-More details in the ATTACHED PDF.
+More details in the ATTACHED PDF - BobbleTest in this repository.
   
