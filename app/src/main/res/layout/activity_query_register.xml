@@ -9,7 +9,7 @@
     tools:context=".QueryRegister"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/ab5">
+    android:background="@drawable/gradient_list">
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,9 +17,10 @@
         android:layout_marginBottom="10dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:textColor="#ffffff"
-        android:text="QueryBox Registration"
+        android:text="Registration"
         android:textSize="28dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="left"
+        android:paddingLeft="20dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -85,6 +86,6 @@
         android:gravity="center"
         android:id="@+id/login"
         android:fontFamily="sans-serif-condensed-medium"
-        android:textColor="@color/blue2"/>
+        android:textColor="@color/colorGrey"/>
 
 </LinearLayout>

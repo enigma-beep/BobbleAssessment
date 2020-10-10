@@ -8,7 +8,7 @@
     android:paddingTop="40dp"
     tools:context=".QueryUsers"
     android:orientation="vertical"
-    android:background="@drawable/ab52">
+    android:background="@drawable/gradient_list">
 
     <TextView
         android:layout_width="match_parent"
